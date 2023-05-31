@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "the-gatsby-paper",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A Gatsby template with modern techonologies for blogging",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Richard Nguyen <richard.nguyenmh@gmail.com>",
   "dependencies": {
     "gatsby": "^5.10.0",
     "gatsby-plugin-image": "^3.10.0",
@@ -18,14 +18,21 @@
     "prettier": "^2.8.8"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "mdx",
+    "starter",
+    "jest",
+    "testing"
   ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop --p 6789",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
-    "start": "gatsby develop",
+    "start": "gatsby develop --p 6789",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
